@@ -13,4 +13,4 @@ TEST(Factorial, negativos){
 }
 
 
-//g++ -isystem ../../../googletest/googletest/include/ -pthread
+//g++ -o prueba -isystem ../../../googletest/googletest/include/ Functions.h valueParametrized_test ../gtest_main.a -pthread
