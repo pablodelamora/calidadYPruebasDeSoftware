@@ -22,8 +22,9 @@ string Cesar::decrypt(string texto){
   while (!infile.eof()){
     getline(infile, aux);
     diccionario.push_back(aux);
-    if (aux == "Garden")
+    if (aux == texto)
       cout << aux << endl;
+	  break;
   }
   infile.close();
 
@@ -32,6 +33,6 @@ string Cesar::decrypt(string texto){
 
   infile2.close();
 
-  cout << diccionario.size();
+  //cout << diccionario.size();
   return aux;
 }

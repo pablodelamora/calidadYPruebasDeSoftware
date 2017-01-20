@@ -4,7 +4,8 @@ int main(){
 
   Cesar prueba;
 
-  cout << prueba.decrypt("abc");
+
+  cout << prueba.decrypt("Garden");
 
   return 0;
 }
