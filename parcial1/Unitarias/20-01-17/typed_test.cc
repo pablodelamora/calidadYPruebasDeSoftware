@@ -11,7 +11,7 @@ protected:
   Base* instance2Test;
 };
 
-typedef testing::Types<Child1,Child2, Child3> implementations;
+typedef testing::Types<Child1,Child2> implementations;
 
 TYPED_TEST_CASE(FixTyped, implementations);
 

@@ -3,9 +3,6 @@
 int main(){
 
   Cesar prueba;
-
-
-  cout << prueba.decrypt("Garden");
-
+  prueba.decrypt();
   return 0;
 }
